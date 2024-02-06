@@ -41,6 +41,7 @@ const copyClip = useCallback(()=>{
           />
           <button className="bg-blue-700 py-1 px-4 text-white rounded-lg " onClick={copyClip}>
             Copy
+            
           </button>
         </div>
         <input type="range" value={length} min={6} max={100} onChange={(e)=>{setLength(e.target.value)}} className="cursor-pointer" />
